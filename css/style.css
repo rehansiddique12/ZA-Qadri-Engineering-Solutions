@@ -2119,10 +2119,10 @@ img {
 
 .page-title {
   position: relative;
-  padding: 215px 0px 0px;
+  padding: 315px 0px 0px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #4a4a4a;
+  background-color: #4a4a4a69;
   background-position: center;
 }
 
@@ -2136,8 +2136,8 @@ img {
   display: block;
   background: linear-gradient(
     to bottom,
-    rgba(24, 24, 24, 1),
-    rgba(24, 24, 24, 0.8),
+    rgba(24, 24, 24, 0.473),
+    rgba(24, 24, 24, 0.473),
     rgba(24, 24, 24, 0.5)
   );
 }
@@ -2767,7 +2767,7 @@ img {
   transition: all 0.4s ease;
   color: #f5be2d;
   font-size: 16px;
-  border-bottom: 2px dashed #515151;
+  border-bottom: 2px da shades #515151;
   font-family: "Roboto";
   font-weight: 700;
   line-height: 1em;
@@ -11368,7 +11368,7 @@ a.ui-button:active,
   margin-bottom: 50px;
   padding: 16px 20px;
   text-align: center;
-  border: 1px dashed #b2dd4c;
+  border: 1px da shades #b2dd4c;
   background: #f4f4f4;
   line-height: 1.7em;
 }
@@ -12412,7 +12412,7 @@ a.ui-button:active,
 
 .subscribe-block-two {
   background: #f7f7f7;
-  border-top: 3px dashed #f5be2d;
+  border-top: 3px da shades #f5be2d;
   text-align: center;
   padding: 65px 40px;
   padding-bottom: 60px;
@@ -12786,4 +12786,12 @@ a.ui-button:active,
     bottom: 18px;
     right: 18px;
   }
+}
+
+
+.sm-hight {
+  height: 300px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  border: solid 1px #e9881a;
 }

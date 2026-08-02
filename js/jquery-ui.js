@@ -18425,7 +18425,7 @@ $.widget( "ui.tooltip", {
 				// JQuery creates a special event for focusin when it doesn't
 				// exist natively. To improve performance, the native event
 				// object is reused and the type is changed. Therefore, we can't
-				// rely on the type being correct after the event finished
+				// rely on the type being correct after the event fini shades
 				// bubbling, so we set it back to the previous value. (#8740)
 				if ( event ) {
 					event.type = eventType;

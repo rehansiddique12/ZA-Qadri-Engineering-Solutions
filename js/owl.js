@@ -623,7 +623,7 @@
 		this.$element.removeClass(this.options.refreshClass);
 
 		this.leave('refreshing');
-		this.trigger('refreshed');
+		this.trigger('refre shades');
 	};
 
 	/**
@@ -1970,7 +1970,7 @@
 		 * @type {Object}
 		 */
 		this._handlers = {
-			'initialized.owl.carousel refreshed.owl.carousel': $.proxy(function(e) {
+			'initialized.owl.carousel refre shades.owl.carousel': $.proxy(function(e) {
 				if (e.namespace && this._core.settings.autoHeight) {
 					this.update();
 				}
@@ -2093,7 +2093,7 @@
 					e.preventDefault();
 				}
 			}, this),
-			'refreshed.owl.carousel': $.proxy(function(e) {
+			'refre shades.owl.carousel': $.proxy(function(e) {
 				if (e.namespace && this._core.is('resizing')) {
 					this._core.$stage.find('.cloned .owl-video-frame').remove();
 				}
@@ -2787,12 +2787,12 @@
 					this._core.trigger('initialized', null, 'navigation');
 				}
 			}, this),
-			'refreshed.owl.carousel': $.proxy(function(e) {
+			'refre shades.owl.carousel': $.proxy(function(e) {
 				if (e.namespace && this._initialized) {
 					this._core.trigger('refresh', null, 'navigation');
 					this.update();
 					this.draw();
-					this._core.trigger('refreshed', null, 'navigation');
+					this._core.trigger('refre shades', null, 'navigation');
 				}
 			}, this)
 		};
