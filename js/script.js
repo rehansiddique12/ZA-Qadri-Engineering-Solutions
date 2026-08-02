@@ -935,4 +935,8 @@
         enableMasonry();
     });
 
+    setTimeout(function() {
+        handlePreloader();
+    }, 2500);
+
 })(window.jQuery);
