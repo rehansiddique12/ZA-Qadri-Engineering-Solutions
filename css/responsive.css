@@ -328,7 +328,8 @@
 	}
 
 	.default-sidebar:before,
-	.about-us .about-company h4 br{
+	.about-us .about-company h4 br,
+	.about-us .about-company h3 br{
 		display: none;
 	}
 
@@ -1275,10 +1276,12 @@
 		padding-left: 30px;
 		padding-right: 30px;
 	}
-	.about-us .about-company h4 {
+	.about-us .about-company h4,
+	.about-us .about-company h3 {
 		font-size: 18px;
 		line-height: 27px;
 	}
+	.main-banner-content-two h2.title:before,
 	.main-banner-content-two h3:before {
 	    display: block;
 	    margin: 0;

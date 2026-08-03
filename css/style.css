@@ -2031,6 +2031,7 @@ img {
   color: #e9881a;
 }
 
+.main-banner-content-two h2.title,
 .main-banner-content-two h3 {
   animation-delay: 0.5s;
   margin: 0;
@@ -2039,6 +2040,7 @@ img {
   position: relative;
 }
 
+.main-banner-content-two h2.title:before,
 .main-banner-content-two h3:before {
   content: "";
   background: #e9881a;
@@ -2049,6 +2051,7 @@ img {
   margin-right: 20px;
 }
 
+.text-center .main-banner-content-two h2.title:before,
 .text-center .main-banner-content-two h3:before {
   display: block;
   margin-left: auto;
@@ -2223,7 +2226,8 @@ img {
   font-weight: 600;
 }
 
-.sec-title h4 {
+.sec-title h4,
+.sec-title h3 {
   font-size: 14px;
   color: #303030;
   text-transform: uppercase;
@@ -2233,7 +2237,8 @@ img {
   vertical-align: top;
 }
 
-.sec-title h4:before {
+.sec-title h4:before,
+.sec-title h3:before {
   content: "";
   width: 100%;
   height: 3px;
@@ -2243,7 +2248,8 @@ img {
   left: 0;
 }
 
-.sec-title h4 + h2 {
+.sec-title h4 + h2,
+.sec-title h3 + h2 {
   margin-top: 11px;
 }
 
@@ -3523,7 +3529,8 @@ img {
   position: relative;
 }
 
-.about-us .about-company h4 {
+.about-us .about-company h4,
+.about-us .about-company h3 {
   display: block;
   font-size: 24px;
   line-height: 32px;
