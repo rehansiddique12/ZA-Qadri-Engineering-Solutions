@@ -3846,6 +3846,28 @@ img {
   background-color: #e9881a;
 }
 
+.slider-home-two .carousel-inner .item{
+    position:relative;
+}
+
+.slider-home-two .carousel-inner .item::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to right,
+        rgba(0,0,0,.85) 0%,
+        rgba(0,0,0,.65) 45%,
+        rgba(233,136,26,.25) 100%
+    );
+    z-index:1;
+}
+
+.slider-home-two .carousel-caption{
+    position:relative;
+    z-index:2;
+}
+
 .about-style-one {
   padding: 100px 0;
 }
